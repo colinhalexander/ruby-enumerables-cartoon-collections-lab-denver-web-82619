@@ -20,8 +20,7 @@ def find_the_cheese(array)
   cheese = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   #return string of cheese type or nil
-  cheese = cheese_types.reduce do |n|
-    array.index(n)
+  cheese = 
   end
   if cheese
     cheese = array[cheese]
