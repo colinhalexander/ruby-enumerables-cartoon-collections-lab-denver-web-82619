@@ -11,7 +11,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  return array.reduce do |n|
+  return array.
   
 end
 
