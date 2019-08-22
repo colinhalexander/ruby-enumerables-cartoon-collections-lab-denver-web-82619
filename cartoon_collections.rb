@@ -20,7 +20,9 @@ def find_the_cheese(array)
   cheese = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   #return string of cheese type or nil
-  cheese_types.each 
+  cheese_types.each do |n|
+    array.find(n)
+  end
   
   return cheese
 end
