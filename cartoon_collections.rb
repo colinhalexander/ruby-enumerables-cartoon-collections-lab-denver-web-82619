@@ -24,7 +24,7 @@ def find_the_cheese(array)
     array.index(n)
   end
   if cheese
-    cheese = 
+    cheese = array[cheese]
   return cheese
 end
 
