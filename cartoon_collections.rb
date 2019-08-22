@@ -21,7 +21,8 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #return string of cheese type or nil
   cheese_types.each do |n|
-    if array.include?(n)
+    break if array.include?(n)
+    cheese_bool = array.include?(n)
   end
 end
 
