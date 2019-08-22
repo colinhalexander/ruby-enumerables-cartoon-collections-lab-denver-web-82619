@@ -17,9 +17,12 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
+  cheese = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   #return string of cheese type or nil
-  cheese_types.
+  cheese_types.each do |n|
+    
+  end
 end
 
 
